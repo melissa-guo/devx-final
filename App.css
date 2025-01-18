@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.images {
+  display: flex; 
+  margin-top: 20px; 
+  justify-content: center;
+}
+
+.adventure-image {
+  max-width: 80%; /* Adjust the size */
+  margin: 20px 0; /* Space above and below the image */
+  display: block; /* Centers the image */
+}
+
+input {
+  margin-bottom: 10px; /* Adds space below the input field */
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
